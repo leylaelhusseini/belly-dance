@@ -20,18 +20,60 @@
  
     <div class="floor"></div>
  
+    <div class="rain">
+      <div class="money"></div>
+      <div class="money"></div>
+      <div class="money"></div>
+      <div class="money"></div>
+      <div class="money"></div>
+      <div class="money"></div>
+    </div>
+ 
+    <div class="curtain curtain-left"></div>
+    <div class="curtain curtain-right"></div>
+ 
+    <div class="audience">
+      <div class="person">
+        <div class="arm"><div class="bill"></div></div>
+        <div class="head"></div>
+        <div class="hair"></div>
+        <div class="body"></div>
+      </div>
+      <div class="person">
+        <div class="arm"><div class="bill"></div></div>
+        <div class="head"></div>
+        <div class="body"></div>
+      </div>
+      <div class="person">
+        <div class="arm"><div class="bill"></div></div>
+        <div class="head"></div>
+        <div class="hair"></div>
+        <div class="body"></div>
+      </div>
+      <div class="person">
+        <div class="arm"><div class="bill"></div></div>
+        <div class="head"></div>
+        <div class="hair"></div>
+        <div class="body"></div>
+      </div>
+      <div class="person">
+        <div class="arm"><div class="bill"></div></div>
+        <div class="head"></div>
+        <div class="body"></div>
+      </div>
+      <div class="person">
+        <div class="arm"><div class="bill"></div></div>
+        <div class="head"></div>
+        <div class="body"></div>
+      </div>
+    </div>
+ 
     <button class="start" onclick="startShow()">Start the Show</button>
   </div>
  
   <audio id="music" src="music.mp3" loop></audio>
  
-  <script>
-    function startShow() {
-      document.getElementById("music").play();
-      document.querySelector(".stage").classList.add("playing");
-      document.querySelector(".start").style.display = "none";
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
  
